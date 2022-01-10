@@ -1,0 +1,136 @@
+*{
+    margin : 0;
+    padding : 0;
+    -webkit-appearance: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    color : white;
+    background : #FC3C44;
+    border-radius : 10px;
+    width : auto;
+    height  : auto;
+    padding : 15px;
+}
+.field {
+    margin-bottom : 2%;
+}
+.field input{
+    width : 90%;
+    height : auto;
+    font-size : 105%;
+    color : black;
+    border-radius : 8px;
+    border : 2px solid #CCC;
+    padding : 15px;
+    text-align : center;
+    font-weight : 700;
+}
+.field input:hover {
+    border : 2px solid #FC3C44;
+}
+.field input:active {
+    border : 2px solid #FC3C44;
+}
+.field .desc {
+    color : #F94C57;
+    font-weight: 700;
+    font-size : 70%;
+    margin-top : 5px;
+}
+.field-short {
+    margin-bottom : 2%;
+}
+.field-short input{
+    width : 38%;
+    height : auto;
+    font-size : 105%;
+    color : black;
+    border-radius : 8px;
+    border : 2px solid #CCC;
+    padding : 15px;
+    text-align : center;
+    font-weight : 700;
+}
+.field-short input:hover {
+    border : 2px solid #FC3C44;
+}
+.field-short input:active {
+    border : 2px solid #FC3C44;
+}
+.field-short .desc {
+    color : #F94C57;
+    font-weight: 700;
+    font-size : 70%;
+    margin-top : 5px;
+}
+.field textarea{
+    width : 90%;
+    height : 200px;
+    border : 2px solid #CCC;
+    border-radius : 10px;
+    padding : 10px;
+}
+.field textarea :active{
+    width : 90%;
+    height : 200px;
+    border : 2px solid #FC3C44;
+    border-radius : 10px;
+    padding : 10px;
+}
+.field textarea :hover{
+    width : 90%;
+    height : 200px;
+    border : 2px solid #FC3C44;
+    border-radius : 10px;
+    padding : 10px;
+}
+.button-home {
+    color : white;
+    background : #FC3C44;
+    width : 90%;
+    height : auto;
+    padding : 15px;
+    border : none;
+    border-radius : 10px;
+    font-weight : 600;
+    font-size : 115%;
+}
+.button-home:hover {
+    color : #FC3C44;
+    border : 2px solid #FC3C44;
+    background : transparent;
+}
+.artist-profile {
+    width:280px;
+    height:280px;
+    object-fit:cover;
+    border-radius : 50%;
+}
+
+.button-buy {
+    color : #FC3C44;
+    background : white;
+    width : 98%;
+    height : auto;
+    padding : 15px;
+    border : 2px solid #FC3C44;
+    border-radius : 20px;
+    font-weight : 600;
+    font-size : 100%;
+    margin-top: 10px;
+    text-align: left;
+}
+.button-buy:hover {
+    color : white;
+    border : none;
+    background : #FC3C44;
+}
+.button-buy h3 {
+    color : #333;
+    font-size : 90%;
+}
+.button-buy h2 {
+    font-size : 100%;
+    margin-bottom : 3px;
+}
